@@ -112,9 +112,34 @@ body {
 
 .skills h2,
 .projects h2,
-.purpose h2 {
-    text-align: center;
-    margin-bottom: 40px;
+.purpose h2{
+
+    text-align:center;
+
+    font-size:2.3rem;
+
+    margin-bottom:50px;
+
+    color:#0f172a;
+
+    position:relative;
+}
+
+.skills h2::after,
+.projects h2::after,
+.purpose h2::after{
+
+    content:"";
+
+    width:80px;
+
+    height:4px;
+
+    background:#38bdf8;
+
+    display:block;
+
+    margin:15px auto;
 }
 
 /* Cards */
@@ -135,8 +160,14 @@ body {
     transition: .3s;
 }
 
-.card:hover {
-    transform: translateY(-8px);
+.card:hover{
+
+    transform:
+    translateY(-12px)
+    scale(1.03);
+
+    box-shadow:
+    0 15px 30px rgba(0,0,0,.15);
 }
 
 .card h3 {
@@ -199,4 +230,60 @@ footer {
         font-size:2rem;
     }
 
+}
+
+.skills{
+    padding: 100px 10%;
+    background: #f8fafc;
+}
+
+.projects{
+    padding: 100px 10%;
+    background: linear-gradient(
+        135deg,
+        #e0f2fe,
+        #f8fafc
+    );
+}
+
+.purpose{
+    padding: 100px 10%;
+    background: #ffffff;
+}
+
+.stats{
+
+    background:#0f172a;
+
+    color:white;
+
+    padding:80px 10%;
+
+    display:flex;
+
+    justify-content:space-around;
+
+    text-align:center;
+}
+
+.stat h2{
+
+    font-size:3rem;
+
+    color:#38bdf8;
+}
+
+.profile-pic{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid white;
+
+    margin-bottom:25px;
 }
