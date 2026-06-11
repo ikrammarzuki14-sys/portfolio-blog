@@ -4,98 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <meta name="description" content="About Ikram Marzuki, software development student interested in full stack development, AI, AR, and database systems.">
+    <title>About | Ikram Marzuki</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="index.html">IKRAM.dev</a>
 
-<header>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
-<nav class="navbar">
+            <button id="darkModeBtn" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+                Moon
+            </button>
+        </nav>
+    </header>
 
-<div class="logo">IKRAM.dev</div>
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">About Me</p>
+            <h1>Software student building toward full stack development.</h1>
+            <p>
+                My name is Ikram Marzuki. I am focused on learning how to turn ideas into useful, structured, and maintainable software.
+            </p>
+        </section>
 
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="blog.html">Blog</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
+        <section class="section">
+            <div class="about-grid">
+                <article class="card">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am a Software Development student with a strong interest in web development, artificial intelligence, augmented reality, and database-backed applications.
+                    </p>
+                </article>
 
-</nav>
+                <article class="card">
+                    <h3>Career Goal</h3>
+                    <p>
+                        My goal is to become a professional full stack developer who can work across front-end interfaces, backend APIs, databases, and deployment workflows.
+                    </p>
+                </article>
 
-</header>
+                <article class="card">
+                    <h3>Education</h3>
+                    <p>
+                        Faculty of Informatics and Computing<br>
+                        Software Development Programme
+                    </p>
+                </article>
 
-
-    <section class="skills">
-
-        <h2>About Me</h2>
-    
-        <div class="about-grid">
-    
-            <div class="card">
-    
-                <h3>Who Am I?</h3>
-    
-                <p>
-                    My name is Ikram Marzuki and I am a Software Development student
-                    with a strong interest in web development, artificial intelligence,
-                    and augmented reality.
-                </p>
-    
+                <article class="card">
+                    <h3>Technical Interests</h3>
+                    <ul class="clean-list">
+                        <li>Web development and responsive UI</li>
+                        <li>CodeIgniter 4 and MVC architecture</li>
+                        <li>RESTful APIs and database design</li>
+                        <li>Artificial intelligence concepts</li>
+                        <li>Augmented reality experiences</li>
+                        <li>Software engineering documentation</li>
+                    </ul>
+                </article>
             </div>
-    
-            <div class="card">
-    
-                <h3>Career Goals</h3>
-    
-                <p>
-                    My goal is to become a professional Full Stack Developer and build
-                    innovative software solutions that solve real-world problems.
-                </p>
-    
+        </section>
+
+        <section class="section timeline-section">
+            <div class="section-heading">
+                <p class="eyebrow">Growth</p>
+                <h2>Learning Journey</h2>
             </div>
-    
-            <div class="card">
-    
-                <h3>Education</h3>
-    
-                <p>
-                    Faculty of Informatics and Computing
-                    <br><br>
-                    Software Development Programme
-                </p>
-    
+
+            <div class="timeline">
+                <article>
+                    <span>01</span>
+                    <h3>Foundation</h3>
+                    <p>Built understanding of HTML, CSS, JavaScript, Git, and web page structure.</p>
+                </article>
+                <article>
+                    <span>02</span>
+                    <h3>Backend Practice</h3>
+                    <p>Developed API and database skills through CodeIgniter 4, MySQL, routing, and MVC workflows.</p>
+                </article>
+                <article>
+                    <span>03</span>
+                    <h3>Project Portfolio</h3>
+                    <p>Started turning academic and personal projects into portfolio-ready case studies.</p>
+                </article>
             </div>
-    
-            <div class="card">
-    
-                <h3>Technical Interests</h3>
-    
-                <ul>
-                    <li>Web Development</li>
-                    <li>CodeIgniter 4</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Database Design</li>
-                    <li>Augmented Reality</li>
-                    <li>Software Engineering</li>
-                </ul>
-    
-            </div>
-    
-        </div>
-    
-    </section>
+        </section>
+    </main>
 
-
-<footer>
-
-<p>© 2026 Ikram Marzuki</p>
-
-</footer>
-
+    <footer>
+        <p>&copy; 2026 Ikram Marzuki</p>
+    </footer>
 </body>
 
 </html>
