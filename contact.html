@@ -4,146 +4,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Ikram Marzuki for software development projects, collaborations, and portfolio opportunities.">
     <title>Contact | Ikram Marzuki</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="index.html">IKRAM.dev</a>
 
-<header>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
 
-    <nav class="navbar">
-
-        <div class="logo">IKRAM.dev</div>
-
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-
-    </nav>
-
-</header>
-
-<section class="contact-hero">
-
-    <h1>Let's Connect</h1>
-
-    <p>
-        I'm always interested in discussing software development,
-        innovative projects, web technologies, and future opportunities.
-        Feel free to reach out.
-    </p>
-
-</section>
-
-<section class="contact-container">
-
-    <div class="contact-info card">
-
-        <img
-src="https://cdn-icons-png.flaticon.com/512/3050/3050525.png"
-alt="Contact Illustration"
-class="contact-image">
-
-        <h2>Contact Information</h2>
-
-        <div class="contact-item">
-            <h3>📧 Email</h3>
-            <p>ikram@example.com</p>
-        </div>
-        
-        <div class="contact-item">
-            <h3>💻 GitHub</h3>
-            <p>github.com/ikrammarzuki14-sys</p>
-        </div>
-        
-        <div class="contact-item">
-            <h3>📍 Location</h3>
-            <p>Malaysia</p>
-        </div>
-        
-        <div class="contact-item">
-            <h3>🚀 Interests</h3>
-            <p>
-                Software Development,
-                Artificial Intelligence,
-                Augmented Reality,
-                Entrepreneurship
-            </p>
-        </div>
-
-    </div>
-
-    <div class="contact-form card">
-
-        <h2>Send a Message</h2>
-
-        <form>
-
-            <input
-                type="text"
-                placeholder="Your Full Name"
-                required>
-
-            <input
-                type="email"
-                placeholder="Your Email Address"
-                required>
-
-            <input
-                type="text"
-                placeholder="Subject">
-
-            <textarea
-                rows="6"
-                placeholder="Write your message here..."
-                required></textarea>
-
-            <button type="submit" class="btn">
-                Send Message
+            <button id="darkModeBtn" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+                Moon
             </button>
+        </nav>
+    </header>
 
-        </form>
+    <main>
+        <section class="contact-hero">
+            <p class="eyebrow">Contact</p>
+            <h1>Let's Connect</h1>
+            <p>
+                I am interested in discussing software development, innovative projects, web technologies, and future opportunities.
+            </p>
+        </section>
 
-    </div>
+        <section class="contact-container">
+            <article class="contact-info card">
+                <div class="contact-icon" aria-hidden="true">IM</div>
+                <h2>Contact Information</h2>
 
-</section>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:ikram@example.com">ikram@example.com</a></p>
+                </div>
 
-<section class="cta">
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/ikrammarzuki14-sys">github.com/ikrammarzuki14-sys</a></p>
+                </div>
 
-    <h2>Open To Collaboration</h2>
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <p>Malaysia</p>
+                </div>
 
-    <p>
-        Interested in software development projects,
-        innovative solutions, or academic collaboration?
-        Let's work together.
-    </p>
+                <div class="contact-item">
+                    <h3>Interests</h3>
+                    <p>Software development, AI, AR, databases, and entrepreneurship.</p>
+                </div>
+            </article>
 
-</section>
+            <article class="contact-form card">
+                <h2>Send a Message</h2>
 
-<section class="contact-banner">
+                <form action="mailto:ikram@example.com" method="post" enctype="text/plain">
+                    <label>
+                        <span>Your Full Name</span>
+                        <input type="text" name="name" required>
+                    </label>
 
-    <h2>Building Connections Through Technology</h2>
-    
-    <p>
-    Passionate about creating innovative digital solutions,
-    collaborating with teams, and contributing to meaningful projects.
-    </p>
-    
-    </section>
-    
-<footer>
+                    <label>
+                        <span>Your Email Address</span>
+                        <input type="email" name="email" required>
+                    </label>
 
-    <p>
-        © 2026 Ikram Marzuki | Portfolio Blog
-    </p>
+                    <label>
+                        <span>Subject</span>
+                        <input type="text" name="subject">
+                    </label>
 
-</footer>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="6" required></textarea>
+                    </label>
 
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </article>
+        </section>
+
+        <section class="cta">
+            <div>
+                <h2>Building Connections Through Technology</h2>
+                <p>Passionate about creating useful digital solutions, collaborating with teams, and contributing to meaningful projects.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ikram Marzuki | Portfolio Blog</p>
+    </footer>
 </body>
 
 </html>
