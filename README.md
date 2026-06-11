@@ -8,73 +8,65 @@ https://ikrammarzuki14-sys.github.io/portfolio-blog/
 
 This project is a personal portfolio blog developed for the CSD34203 Special Topics in Software Development course.
 
-The website serves as a professional platform to showcase my skills, projects, learning journey, and interests in software development. It also demonstrates my understanding of web development, GitHub version control, and software project documentation.
-
----
+The website presents my background as a Software Development student, highlights selected projects, shares short blog reflections, and provides a contact page for collaboration or future opportunities.
 
 ## Objectives
 
-* Showcase personal and academic projects
-* Demonstrate web development skills
-* Share learning experiences through blog posts
-* Build a professional online presence
-* Apply GitHub version control practices
+- Showcase personal and academic software projects
+- Demonstrate front-end web development skills
+- Present technical interests in web development, APIs, databases, AI, and AR
+- Share learning experiences through blog-style writing
+- Build a professional online presence using Git and GitHub
 
----
+## Pages
 
-## Features
+### Home
 
-### Home Page
+- Professional hero introduction
+- Portfolio focus areas
+- Technology stack
+- Featured project cards
+- Portfolio statistics
+- Collaboration call to action
 
-* Professional introduction
-* Technical skills overview
-* Featured projects section
-* Portfolio purpose statement
+### About
 
-### About Page
+- Personal background
+- Career goals
+- Education details
+- Technical interests
+- Learning journey timeline
 
-* Personal background
-* Career goals
-* Areas of interest
-* Educational information
+### Blog
 
-### Blog Page
+Includes short posts about:
 
-Contains articles about:
+- Learning CodeIgniter 4
+- Building StudyBuddy Market
+- Exploring Malaysian Batik through AR
 
-* Learning CodeIgniter 4
-* Building StudyBuddy Market
-* Malaysian Batik Augmented Reality Project
+### Contact
 
-### Contact Page
-
-* Contact form interface
-* Professional communication section
-
-### Additional Features
-
-* Responsive design
-* Dark mode functionality
-* Mobile-friendly layout
-* Modern UI design
-
----
+- Contact information
+- GitHub link
+- Email-based contact form interface
+- Collaboration message
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript
-* Git
-* GitHub
-
----
+- HTML5
+- CSS3
+- JavaScript
+- CodeIgniter 4
+- MySQL
+- Git
+- GitHub
 
 ## Featured Projects
 
 ### StudyBuddy Market
 
-A marketplace platform that allows students to buy and sell educational materials.
+A student-focused marketplace platform that allows students to buy and sell educational materials.
 
 ### Veterinarian API System
 
@@ -82,55 +74,38 @@ A RESTful API developed using CodeIgniter 4 and MySQL.
 
 ### Malaysian Batik AR
 
-An Augmented Reality project designed to promote Malaysian cultural heritage through interactive digital experiences.
-
----
+An augmented reality project designed to promote Malaysian cultural heritage through interactive digital experiences.
 
 ## Repository Structure
 
+```text
 portfolio-blog/
-
 ├── index.html
-
 ├── about.html
-
 ├── blog.html
-
 ├── contact.html
-
 ├── css/
-
-│ └── style.css
-
+│   └── style.css
 ├── js/
-
-│ └── script.js
-
+│   └── script.js
 └── README.md
-
----
+```
 
 ## How to Run
 
-1. Clone the repository
-
-2. Open the project folder
-
-3. Launch index.html in a web browser
-
----
+1. Clone or download the repository.
+2. Open the project folder.
+3. Launch `index.html` in a web browser.
 
 ## Learning Outcomes
 
 Through this project I gained practical experience in:
 
-* Front-end web development
-* Responsive design
-* Version control using Git and GitHub
-* Project organization
-* Technical documentation
-
----
+- Front-end web development
+- Responsive design
+- Portfolio content writing
+- Version control using Git and GitHub
+- Project organization and documentation
 
 ## Author
 
