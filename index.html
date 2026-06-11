@@ -4,268 +4,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ikram Marzuki | Portfolio Blog</title>
+    <meta name="description" content="Portfolio of Ikram Marzuki, a software development student focused on web development, APIs, databases, AR, and practical software projects.">
+    <title>Ikram Marzuki | Software Development Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
     <script defer src="js/script.js"></script>
 </head>
 
 <body>
-
-    <!-- Navigation -->
-
-    <header>
-        <nav class="navbar">
-
-            <div class="logo">
-                IKRAM.dev
-            </div>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="index.html">IKRAM.dev</a>
 
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
-            <button id="darkModeBtn">
-                🌙
+            <button id="darkModeBtn" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+                Moon
             </button>
-
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="profile-mark" aria-hidden="true">IM</div>
+                <p class="eyebrow">Software Development Student</p>
+                <h1>Hi, I'm Ikram Marzuki.</h1>
+                <p class="hero-lede">
+                    I build practical web, API, database, and augmented reality projects with a focus on useful software, clean structure, and continuous learning.
+                </p>
 
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <img
-src="images/profile.jpg"
-alt="Profile"
-class="profile-pic">
-
-            <h1>
-                Hi, I'm Ikram Marzuki
-            </h1>
-
-            <h2>
-                Software Development Student
-            </h2>
-
-            <p>
-                Passionate about Web Development,
-                Augmented Reality, Artificial Intelligence,
-                and building innovative software solutions
-                that solve real-world problems.
-            </p>
-
-            <div class="hero-buttons">
-
-                <a href="about.html" class="btn">
-                    About Me
-                </a>
-
-                <a href="blog.html" class="btn-secondary">
-                    Read My Blog
-                </a>
-
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View Projects</a>
+                    <a href="contact.html" class="btn-secondary">Contact Me</a>
+                </div>
             </div>
-
-        </div>
-
-    </section>
-
-    <!-- Skills Section -->
-
-    <section class="skills">
-
-        <h2>Technical Skills</h2>
-
-        <div class="card-container">
-
-            <div class="card">
-                <h3>HTML & CSS</h3>
-                <p>Responsive and modern web design.</p>
-            </div>
-
-            <div class="card">
-                <h3>JavaScript</h3>
-                <p>Interactive and dynamic web applications.</p>
-            </div>
-
-            <div class="card">
-                <h3>CodeIgniter 4</h3>
-                <p>Backend development and MVC architecture.</p>
-            </div>
-
-            <div class="card">
-                <h3>MySQL</h3>
-                <p>Database management and data modelling.</p>
-            </div>
-
-            <div class="card">
-                <h3>Git & GitHub</h3>
-                <p>Version control and collaborative development.</p>
-            </div>
-
-            <div class="card">
-                <h3>Augmented Reality</h3>
-                <p>Interactive cultural heritage experiences.</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="tech-stack">
-
-        <h2>Technologies I Use</h2>
-        
-        <div class="tech-grid">
-        
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>JavaScript</span>
-        <span>CodeIgniter 4</span>
-        <span>MySQL</span>
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>Power BI</span>
-        
-        </div>
-        
         </section>
 
-    <!-- Featured Projects -->
-
-    <section class="projects">
-
-        <h2>Featured Projects</h2>
-
-        <div class="card-container">
-
-            <div class="card">
-
-                <h3>StudyBuddy Market</h3>
-
-                <p>
-                    An online marketplace platform that helps
-                    students buy and sell study materials.
-                </p>
-
+        <section class="section intro-section">
+            <div class="section-heading">
+                <p class="eyebrow">Portfolio Focus</p>
+                <h2>What I Bring</h2>
             </div>
 
-            <div class="card">
+            <div class="feature-grid">
+                <article class="card">
+                    <h3>Web Development</h3>
+                    <p>Responsive interfaces using HTML, CSS, JavaScript, and structured project organization.</p>
+                </article>
 
-                <h3>Veterinarian API System</h3>
+                <article class="card">
+                    <h3>Backend Thinking</h3>
+                    <p>RESTful API development, MVC architecture, database design, and CRUD workflows using CodeIgniter 4 and MySQL.</p>
+                </article>
 
-                <p>
-                    RESTful API developed using
-                    CodeIgniter 4 and MySQL.
-                </p>
+                <article class="card">
+                    <h3>Creative Technology</h3>
+                    <p>Interest in AI and AR experiences that make learning, culture, and information more interactive.</p>
+                </article>
+            </div>
+        </section>
 
+        <section class="section tech-stack">
+            <div class="section-heading">
+                <p class="eyebrow">Tools</p>
+                <h2>Technologies I Use</h2>
             </div>
 
-            <div class="card">
+            <div class="tech-grid" aria-label="Technology stack">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>CodeIgniter 4</span>
+                <span>MySQL</span>
+                <span>REST API</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>Power BI</span>
+                <span>AR</span>
+            </div>
+        </section>
 
-                <h3>Malaysian Batik AR</h3>
-
-                <p>
-                    Augmented Reality project promoting
-                    Malaysian cultural heritage.
-                </p>
-
+        <section id="projects" class="section projects">
+            <div class="section-heading">
+                <p class="eyebrow">Selected Work</p>
+                <h2>Featured Projects</h2>
             </div>
 
-        </div>
+            <div class="project-grid">
+                <article class="project-card">
+                    <div>
+                        <p class="project-type">Marketplace Platform</p>
+                        <h3>StudyBuddy Market</h3>
+                        <p>
+                            A student-focused marketplace for buying and selling study materials, created to support peer learning and small student entrepreneurship.
+                        </p>
+                    </div>
+                    <ul class="project-points">
+                        <li>Designed around student users and simple product discovery.</li>
+                        <li>Practiced front-end layout, feature planning, and marketplace flow.</li>
+                        <li>Good candidate for screenshots, user roles, and transaction workflow details.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span>Web</span>
+                        <span>UX</span>
+                        <span>Entrepreneurship</span>
+                    </div>
+                </article>
 
-    </section>
+                <article class="project-card">
+                    <div>
+                        <p class="project-type">Backend API</p>
+                        <h3>Veterinarian API System</h3>
+                        <p>
+                            A RESTful API system built with CodeIgniter 4 and MySQL for managing veterinary-related data and backend operations.
+                        </p>
+                    </div>
+                    <ul class="project-points">
+                        <li>Applied MVC structure, routing, controllers, models, and database operations.</li>
+                        <li>Strengthened understanding of API endpoints and server-side validation.</li>
+                        <li>Good candidate for endpoint tables, database schema, and testing examples.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span>CodeIgniter 4</span>
+                        <span>MySQL</span>
+                        <span>REST API</span>
+                    </div>
+                </article>
 
-    <section class="stats">
+                <article class="project-card">
+                    <div>
+                        <p class="project-type">Augmented Reality</p>
+                        <h3>Malaysian Batik AR</h3>
+                        <p>
+                            An AR project that promotes Malaysian Batik through interactive digital experiences and cultural heritage storytelling.
+                        </p>
+                    </div>
+                    <ul class="project-points">
+                        <li>Connects technology with Malaysian culture and visual learning.</li>
+                        <li>Shows interest in immersive media beyond standard websites.</li>
+                        <li>Good candidate for demo images, target markers, and interaction flow.</li>
+                    </ul>
+                    <div class="tag-row">
+                        <span>AR</span>
+                        <span>Culture</span>
+                        <span>Interactive Media</span>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-        <div class="stat">
-    
-            <h2>3+</h2>
-    
-            <p>Major Projects</p>
-    
-        </div>
-    
-        <div class="stat">
-    
-            <h2>5+</h2>
-    
-            <p>Technical Skills</p>
-    
-        </div>
-    
-        <div class="stat">
-    
-            <h2>100%</h2>
-    
-            <p>Commitment to Learning</p>
-    
-        </div>
-    
-    </section>
-    <!-- Why This Portfolio -->
+        <section class="stats" aria-label="Portfolio highlights">
+            <div class="stat">
+                <h2>3+</h2>
+                <p>Major Projects</p>
+            </div>
+            <div class="stat">
+                <h2>10</h2>
+                <p>Core Technologies</p>
+            </div>
+            <div class="stat">
+                <h2>100%</h2>
+                <p>Commitment to Learning</p>
+            </div>
+        </section>
 
-    <section class="purpose">
-
-        <h2>Why I Built This Portfolio</h2>
-
-        <p>
-            This portfolio demonstrates my software development
-            journey, technical skills, project experiences,
-            and commitment to continuous learning. It serves as
-            a platform to share knowledge, showcase projects,
-            and connect with future employers and collaborators.
-        </p>
-
-    </section>
-
-    <section class="socials">
-
-        <h2>Connect With Me</h2>
-        
-        <a href="https://github.com/ikrammarzuki14-sys">
-        GitHub
-        </a>
-        
-        <a href="#">
-        LinkedIn
-        </a>
-        
-        <a href="#">
-        Email
-        </a>
-        
+        <section class="section purpose">
+            <div class="section-heading">
+                <p class="eyebrow">Direction</p>
+                <h2>What I Want To Build Next</h2>
+            </div>
+            <p>
+                I am working toward becoming a full stack developer who can design, build, document, and improve real software systems. This portfolio will grow with case studies, screenshots, technical decisions, and lessons learned from each project.
+            </p>
         </section>
 
         <section class="cta">
+            <div>
+                <h2>Open To Collaboration</h2>
+                <p>Interested in web development, API systems, AR projects, or student technology ideas? Let's connect.</p>
+            </div>
+            <a href="contact.html" class="btn">Contact Me</a>
+        </section>
+    </main>
 
-            <h2>Interested In Working Together?</h2>
-            
-            <p>
-            Let's connect and build something impactful.
-            </p>
-            
-            <a href="contact.html" class="btn">
-            Contact Me
-            </a>
-            
-            </section>
-            
     <footer>
-
-        <p>
-            © 2026 Ikram Marzuki | Personal Portfolio Blog
-        </p>
-
+        <p>&copy; 2026 Ikram Marzuki | Personal Portfolio Blog</p>
     </footer>
-
 </body>
 
 </html>
