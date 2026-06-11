@@ -2,85 +2,74 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog posts from Ikram Marzuki about software development, CodeIgniter 4, StudyBuddy Market, and Malaysian Batik AR.">
+    <title>Blog | Ikram Marzuki</title>
 
-<link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="index.html">IKRAM.dev</a>
 
-<header>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" aria-current="page">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
-<nav class="navbar">
+            <button id="darkModeBtn" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+                Moon
+            </button>
+        </nav>
+    </header>
 
-<div class="logo">IKRAM.dev</div>
+    <main>
+        <section class="page-hero">
+            <p class="eyebrow">Blog</p>
+            <h1>Notes from my software development journey.</h1>
+            <p>
+                Short reflections on the projects, tools, and technical ideas I am learning while building my portfolio.
+            </p>
+        </section>
 
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="blog.html">Blog</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
+        <section class="section projects">
+            <div class="blog-grid">
+                <article class="card blog-card">
+                    <p class="post-meta">Backend Learning</p>
+                    <h2>Learning CodeIgniter 4</h2>
+                    <p>
+                        Learning CodeIgniter 4 helped me understand MVC architecture, routing, controllers, models, and backend development. It improved my ability to build structured web applications.
+                    </p>
+                </article>
 
-</nav>
+                <article class="card blog-card">
+                    <p class="post-meta">Project Reflection</p>
+                    <h2>Building StudyBuddy Market</h2>
+                    <p>
+                        StudyBuddy Market was developed to help students buy and sell educational materials. This project strengthened my skills in entrepreneurship, planning, and software development.
+                    </p>
+                </article>
 
-</header>
+                <article class="card blog-card">
+                    <p class="post-meta">Creative Technology</p>
+                    <h2>Exploring Malaysian Batik Through AR</h2>
+                    <p>
+                        My augmented reality project aims to promote Malaysian Batik through immersive digital experiences, helping preserve and showcase local cultural heritage.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
 
-<section class="projects">
-
-<h2>My Blog Posts</h2>
-
-<div class="card-container">
-
-<div class="card">
-
-<h3>Learning CodeIgniter 4</h3>
-
-<p>
-Learning CodeIgniter 4 helped me understand MVC architecture,
-routing, controllers, models, and backend development.
-It improved my ability to build structured web applications.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Building StudyBuddy Market</h3>
-
-<p>
-StudyBuddy Market was developed to help students buy and sell
-educational materials. This project strengthened my skills
-in entrepreneurship and software development.
-</p>
-
-</div>
-
-<div class="card">
-
-<h3>Exploring Malaysian Batik Through AR</h3>
-
-<p>
-My Augmented Reality project aims to promote Malaysian Batik
-through immersive digital experiences, helping preserve and
-showcase local cultural heritage.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>© 2026 Ikram Marzuki</p>
-
-</footer>
-
+    <footer>
+        <p>&copy; 2026 Ikram Marzuki</p>
+    </footer>
 </body>
 
 </html>
