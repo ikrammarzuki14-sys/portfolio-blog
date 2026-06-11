@@ -1,8 +1,18 @@
-const darkModeBtn =
-document.getElementById("darkModeBtn");
+const darkModeBtn = document.getElementById("darkModeBtn");
 
-darkModeBtn.addEventListener("click", () => {
+if (darkModeBtn) {
+    const savedTheme = localStorage.getItem("theme");
 
-    document.body.classList.toggle("dark-mode");
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark-mode");
+        darkModeBtn.textContent = "Sun";
+    }
 
-});
+    darkModeBtn.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+
+        const isDark = document.body.classList.contains("dark-mode");
+        localStorage.setItem("theme", isDark ? "dark" : "light");
+        darkModeBtn.textContent = isDark ? "Sun" : "Moon";
+    });
+}
