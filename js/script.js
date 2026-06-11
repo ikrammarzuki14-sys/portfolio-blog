@@ -5,7 +5,7 @@ if (darkModeBtn) {
 
     if (savedTheme === "dark") {
         document.body.classList.add("dark-mode");
-        darkModeBtn.textContent = "Sun";
+        darkModeBtn.textContent = "Light";
     }
 
     darkModeBtn.addEventListener("click", () => {
@@ -13,6 +13,6 @@ if (darkModeBtn) {
 
         const isDark = document.body.classList.contains("dark-mode");
         localStorage.setItem("theme", isDark ? "dark" : "light");
-        darkModeBtn.textContent = isDark ? "Sun" : "Moon";
+        darkModeBtn.textContent = isDark ? "Light" : "Dark";
     });
 }
